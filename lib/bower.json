@@ -1,0 +1,21 @@
+{
+  "name": "finalCapstoneTest",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "https://github.com/juan-rod/final-capstone-test",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5",
+    "angular": "~1.4.4",
+    "angular-route": "~1.4.4"
+  }
+}

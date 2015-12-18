@@ -1,0 +1,117 @@
+body {
+  background: white;
+  background: -webkit-linear-gradient(#0b0b0b, #282a2b);
+  background: linear-gradient(#0b0b0b, #282a2b);
+  color: #eee;
+  font-weight: 100; }
+
+.border {
+  border: 2px dotted red; }
+
+.border2 {
+  border: 2px dotted blue; }
+
+.border3 {
+  border: 2px dotted white; }
+
+.gameTitleDiv {
+  height: 100vh;
+  /*max-height:550px;*/
+  font-size: 6em;
+  font-weight: 100; }
+  .gameTitleDiv .gameTitle {
+    height: 65%;
+    text-align: center; }
+    .gameTitleDiv .gameTitle p {
+      /*border:1px dotted yellow;*/
+      height: 100%;
+      padding-top: 150px; }
+
+.gameLogin .loginBtn, .gameLogin .signUpBtn {
+  /*border: 2px dotted red;*/
+  text-align: center; }
+  .gameLogin .loginBtn button, .gameLogin .loginBtn .btn, .gameLogin .signUpBtn button, .gameLogin .signUpBtn .btn {
+    background-color: transparent;
+    text-align: center;
+    font-weight: 100;
+    border-radius: 0;
+    border: 4px solid white;
+    height: 76px;
+    width: 150px;
+    font-size: 26px; }
+.gameLogin .btn-login {
+  float: right; }
+.gameLogin .btn-signup {
+  float: left; }
+
+.songDial {
+  /*border:1px dotted white;*/
+  height: 100vh; }
+  .songDial .songList {
+    text-align: center;
+    /*border:1px dotted blue;*/
+    height: 100px;
+    margin: 25% 0;
+    padding-top: 10%;
+    overflow: auto; }
+    .songDial .songList p {
+      /*border:1px dotted yellow;*/
+      font-size: 45px;
+      height: 60px;
+      width: 75%;
+      margin: auto;
+      overflow-y: hidden; }
+
+.gameViewMain {
+  height: 100%;
+  width: 100%;
+  border: 1px solid white; }
+  .gameViewMain .gameWindow {
+    /*border: 1px solid white;*/
+    height: 500px;
+    margin: 10 10; }
+    .gameViewMain .gameWindow .nowPlaying {
+      font-size: 16px; }
+    .gameViewMain .gameWindow .playerScore {
+      font-size: 16px;
+      text-align: right; }
+
+.musicPlayer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 20px; }
+
+.audioplayer {
+  width: 100%;
+  height: 60px;
+  margin: 50px auto auto auto;
+  border: 3px solid #eee; }
+
+#pButton {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  border: 0px;
+  outline: none !important; }
+
+.glyphicon-play {
+  font-size: 30px;
+  color: red; }
+
+.pause {
+  background: url("http://www.alexkatz.me/codepen/images/pause.png"); }
+
+.timeline {
+  /*width: 100%;*/
+  height: 20px;
+  margin-top: 20px;
+  /*float: left;*/
+  border-radius: 15px;
+  background: white; }
+
+#music {
+  border: 4px solid blue;
+  background-color: white; }
+
+/*# sourceMappingURL=main.css.map */
